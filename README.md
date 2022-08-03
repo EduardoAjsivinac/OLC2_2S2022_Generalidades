@@ -67,3 +67,20 @@ fn main() {
 }
 
 ```
+
+* # Funciones nativas
+```rust
+fn main() {
+    
+    let dato: f64 = 5.5;
+    let raiz = (dato).sqrt();
+    let absoluto = (dato).abs();
+    let cadena = (dato).to_string();
+    let copia = (dato).clone();
+    println!("{}", raiz);
+    println!("{}", absoluto);
+    println!("{}", cadena);
+    println!("{}", copia);
+    
+}
+```
