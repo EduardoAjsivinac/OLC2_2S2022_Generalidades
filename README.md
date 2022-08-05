@@ -84,3 +84,28 @@ fn main() {
     
 }
 ```
+
+* # Operaciones básicas
+```rust
+fn main() {
+    let sum = 4+5;
+    let res = 4-5;
+    let div = 4/5;
+    let mul = 4*5;
+    let modu = 4%5;
+    let exp1 = f64::powf(5.4,2.0);
+    let exp2 = i64::pow(5,2);
+    let string1: String = "hello".to_string();
+    let string2: &str = "world";
+    let string3 = string1 + string2;
+    println!("{}", sum);
+    println!("{}", res);
+    println!("{}", div);
+    println!("{}", mul);
+    println!("{}", modu);
+    println!("{}", exp1);
+    println!("{}", exp2);
+    println!("{}", string3)
+    
+}
+```
