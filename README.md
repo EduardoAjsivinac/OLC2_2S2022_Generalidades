@@ -109,3 +109,13 @@ fn main() {
     
 }
 ```
+
+* # Casteos
+Los encabezados son los tipos de datos de origen y las columnas son los tipos de dato destino
+| A\De: | int | float | char | string | &str |
+|---|---|---|---|---|---|
+| int | int | int (truncar) | |  |  |
+| float | float | float |  |  |  |
+| char | | | | | |
+| string -> .to_string() | string | string | string | string | string |
+| &str -> .to_owned() | &str | &str | &str | &str | &str |
